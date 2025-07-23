@@ -6,7 +6,7 @@ services:
       - "5000:3003"
     environment:
       - MONGO_CONNECTION=mongodb://admin:password123@mongo
-      - PORT=3000
+      - PORT=3003
     depends_on:
       - mongo
     networks:
